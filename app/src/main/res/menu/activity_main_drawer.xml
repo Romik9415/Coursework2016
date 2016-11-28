@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    </group>
+    <item android:title="Функції">
+        <menu>
+            <item
+                android:id="@+id/get_smallest_capacity"
+                android:icon="@drawable/ic_flash_on_black_24dp"
+                android:title="Найменший об'єм батареї" />
+            <item
+                android:id="@+id/sort"
+                android:icon="@drawable/ic_sort_black_24dp"
+                android:title="Сортувати за об'ємом" />
+        </menu>
+    </item>
+
+    <item android:title="Швидкі дії">
+        <menu>
+            <item
+                android:id="@+id/nav_add_phones"
+                android:icon="@drawable/ic_phone_android_black_24dp"
+                android:title="Додати 5 телефонів" />
+            <item
+                android:id="@+id/nav_delete_all"
+                android:icon="@drawable/ic_delete_black_24dp"
+                android:title="Видалити все" />
+            <item
+                android:id="@+id/instruction"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="Інструкція" />
+
+        </menu>
+    </item>
+</menu>

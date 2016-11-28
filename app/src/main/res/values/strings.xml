@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">HelloPhone</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Налаштування</string>
+    <string name="brand">Марка</string>
+    <string name="consumed_power">Обєм батареї</string>
+    <string name="phone_type">Тип телефону</string>
+    <string name="year">Рік</string>
+    <string name="dialing_type">Спосіб вводу</string>
+    <string name="additional_antenna">Додаткова антена</string>
+    <string name="standby_time">Час в режимі очікування</string>
+    <string name="talk_time">Час в режимі розмови</string>
+    <string-array name="phone_type">
+        <item>Аналоговий</item>
+        <item>Мобільний</item>
+        <item>Супутниковий</item>
+    </string-array>
+    <string-array name="dialing_type_spinner">
+        <item>Сенсорний</item>
+        <item>Кнопковий</item>
+    </string-array>
+    <string-array name="communications_standard">
+        <item>GSM900</item>
+        <item>GSM1800</item>
+        <item>GSM1900</item>
+        <item>GSM2100</item>
+    </string-array>
+    <string name="title_activity_new_item">Новий елемент</string>
+    <string name="save_title">Зберегти</string>
+    <string name="communications_standard">Стандарт звязку</string>
+    <string name="type_of_phone">Тип телефону : </string>
+    <string name="standard_string">Стандарт звязку : </string>
+    <string name="yearFull">Рік :</string>
+    <string name="type_of_phone_full">Тип телефону</string>
+    <string name="communications_standard_full">Стандарт звязку</string>
+    <string name="dialing_type_full">Спосіб набору</string>
+    <string name="additional_antenna_full">Додаткова антена</string>
+    <string name="battery_capacity_full">Обєм батареї</string>
+    <string name="standby_time_full">Час в режимі очікування</string>
+    <string name="talk_time_full">Час в режимі ромов</string>
+    <string name="delete">Видалити</string>
+    <string name="edit">Редагувати</string>
+    <string name="heder_title">HelloPhone</string>
+    <string name="heder_mail">hruparoman@gmail.com</string>
+    <string name="get_smallest_element">Найменша батарея</string>
+    <string name="spinner_text">Знайти пристрої з однаковим стандартом звязку та згрупувати за способом набору номера. </string>
+    <string name="get_smallest_element_text">Отримати найменший обєм батареї</string>
+</resources>
