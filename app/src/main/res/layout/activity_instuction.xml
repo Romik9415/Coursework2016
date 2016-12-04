@@ -9,7 +9,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/instruction_view"
-    android:padding="16dp">
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp">
 
 </WebView>
 

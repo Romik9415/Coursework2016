@@ -43,6 +43,7 @@
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#546F7A"
+                android:maxLength="20"
                 android:inputType="text" />
         </android.support.design.widget.TextInputLayout>
 
@@ -229,6 +230,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/consumed_power"
+                        android:maxLength="8"
                         android:inputType="number" />
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
@@ -255,6 +257,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/standby_time"
+                        android:maxLength="8"
                         android:inputType="number" />
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
@@ -281,6 +284,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/talk_time"
+                        android:maxLength="8"
                         android:inputType="number" />
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>

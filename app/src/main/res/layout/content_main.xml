@@ -23,7 +23,7 @@
         android:foregroundGravity="center|top"
         android:layout_height="match_parent"
         android:id="@+id/bg"
-        android:scaleType="center"
+        android:scaleType="centerCrop"
         android:contentDescription="@string/app_name"
         android:src="@drawable/empty_background"/>
     <TextView
@@ -33,7 +33,7 @@
         android:paddingTop="100dp"
         android:id="@+id/empty_text"
         android:gravity="center"
-        android:text="Опс, тут порожньо :)"/>
+        android:text="Упс, тут порожньо :)"/>
     </RelativeLayout>
 </LinearLayout>
 
